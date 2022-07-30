@@ -22,10 +22,17 @@ int main() {
 
   // Second approach to printing the sum
   printf("\n"); // Prints a new empty line
-
   printf("Sum of the two numbers is: %d", sum);
-
   printf("\n"); // Prints a new empty line
+
+  int num3 = 24;
+  int num4 = 5;
+
+  int difference = num3 - num4;
+
+  printf("Num3's value is: %d \n", num3);
+  printf("Num4's value is: %d \n", num4);
+  printf("Difference of the two is: %d", difference);
 
   return 0;
 }
